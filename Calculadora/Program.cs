@@ -12,6 +12,7 @@ namespace Calculadora
         {
            double valor1 = 0;
            double valor2 = 0;
+            double valor3 = 0;
            
 
             
@@ -48,7 +49,7 @@ namespace Calculadora
             {
                 Console.WriteLine("O resultado é:" + (valor1 / valor2));
                 Console.ReadKey();
-            }
+            }//
             else
             if (opc == "4")
             {
